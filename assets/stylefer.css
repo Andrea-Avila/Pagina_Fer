@@ -1,0 +1,58 @@
+ /* Estilo personalizado */
+ body {
+    background-color: #f70d0d;
+  }
+
+  h1 {
+    background-image: linear-gradient(to right, #ff0000, #ec73e2);
+    -webkit-background-clip: text; /* Opción específica para WebKit (Safari, Chrome) */
+    -webkit-text-fill-color: transparent; 
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .navbar {
+    background-color: #9b59b6;
+  }
+
+  .navbar-brand {
+    color: #ffffff;
+    font-weight: bold;
+  }
+
+  .nav-link {
+    color: #ffffff;
+  }
+
+  .carousel-item.active {
+    filter: brightness(70%);
+  }
+
+  h2 {
+    color: #8e44ad;
+    margin-top: 30px;
+  }
+
+  .form-check-label {
+    color: #8e44ad;
+  }
+
+  .card {
+    background-color: #f8f4fc;
+    border: 1px solid #8e44ad;
+  }
+
+  .card-title {
+    color: #8e44ad;
+  }
+
+  .card-text {
+    color: #555555;
+  }
+
+  /* Estilo para las imágenes responsivas */
+  .carousel-item img {
+    max-width: 100%;
+    height: 300px; 
+    object-fit: cover; 
+  }
